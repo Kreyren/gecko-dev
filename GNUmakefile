@@ -8,7 +8,10 @@ all: build
 build:
 	./mach build
 
+run:
+	./mach run
+
 clean:
 	./mach clobber
 
-.PHONY: all build clean
+.PHONY: all build run clean

@@ -1,2 +1,6 @@
 # DNM: Used for debugging
 privileged: true
+
+tasks:
+  - before: make build
+  - command: make run
