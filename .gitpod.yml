@@ -1,5 +1,4 @@
-images:
-  file: gitpod/gitpod.Dockerfile
+image: gitpod/gecko
 
 github:
   prebuilds:
@@ -10,5 +9,4 @@ github:
 privileged: true
 
 tasks:
-  - before: make build
-  - command: make run
+  - before: make build && make compile-database && make run

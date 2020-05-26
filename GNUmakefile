@@ -11,7 +11,11 @@ build:
 run:
 	./mach run
 
+# Used to get paths of header files for linting
+compile-database:
+	./mach build-backend -b CompileDB
+
 clean:
 	./mach clobber
 
-.PHONY: all build run clean
+.PHONY: all build run compile-database clean
