@@ -1,4 +1,4 @@
-image: gitpod/gecko
+image: gitpod/workspace-gecko
 
 github:
   prebuilds:
