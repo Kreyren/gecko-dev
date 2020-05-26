@@ -1,3 +1,11 @@
+images:
+  file: gitpod/gitpod.Dockerfile
+
+github:
+  prebuilds:
+    # enable for the master/default branch (defaults to true)
+    master: true
+
 # DNM: Used for debugging
 privileged: true
 
